@@ -1,0 +1,56 @@
+﻿生成启动时间为 2021/10/11 星期一 16:44:31。
+     1>项目“E:\组件Demo\TCIP\TCIP\TCIP.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing tcip.h...
+         Uic'ing tcip.ui...
+     1>E:\组件Demo\TCIP\TCIP\tcip.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+     1>E:\组件Demo\TCIP\TCIP\tcip.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget2'.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.9.9\5.9.9\msvc2015_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.9.9\5.9.9\msvc2015_64\include\QtCore /IC:\Qt\Qt5.9.9\5.9.9\msvc2015_64\include\QtGui /IC:\Qt\Qt5.9.9\5.9.9\msvc2015_64\include\QtWidgets /IC:\Qt\Qt5.9.9\5.9.9\msvc2015_64\include\QtNetwork /Zi /nologo /W1 /WX- /Od /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt /Zc:__cplusplus GeneratedFiles\Debug\moc_tcip.cpp main.cpp tcip.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zc:__cplusplus”
+         moc_tcip.cpp
+     1>e:\组件demo\tcip\tcip\./src/modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>e:\组件demo\tcip\tcip\./src/modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tcip.cpp
+     1>e:\组件demo\tcip\tcip\./src/modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\组件demo\tcip\tcip\src\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\组件Demo\TCIP\x64\Debug\\TCIP.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Networkd.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\组件Demo\TCIP\x64\Debug\TCIP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\组件Demo\TCIP\x64\Debug\TCIP.lib" /MACHINE:X64 x64\Debug\moc_tcip.obj
+         x64\Debug\qrc_tcip.obj
+         x64\Debug\main.obj
+         "x64\Debug\modbus-data.obj"
+         "x64\Debug\modbus-rtu.obj"
+         "x64\Debug\modbus-tcp.obj"
+         x64\Debug\modbus.obj
+         x64\Debug\tcip.obj
+           正在创建库 E:\组件Demo\TCIP\x64\Debug\TCIP.lib 和对象 E:\组件Demo\TCIP\x64\Debug\TCIP.exp
+     1>modbus-rtu.obj : warning LNK4217: 本地定义的符号 modbus_free 在函数 modbus_new_rtu 中导入
+     1>modbus-tcp.obj : warning LNK4217: 本地定义的符号 modbus_free 在函数 _modbus_tcp_init_win32 中导入
+     1>tcip.obj : warning LNK4049: 已导入本地定义的符号 modbus_free
+     1>modbus.obj : warning LNK4217: 本地定义的符号 modbus_set_bits_from_bytes 在函数 modbus_reply 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_set_slave 在函数 "public: void __cdecl TCIP::pushButton_connect(void)" (?pushButton_connect@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_set_response_timeout 在函数 "public: void __cdecl TCIP::pushButton_connect(void)" (?pushButton_connect@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_connect 在函数 "public: void __cdecl TCIP::pushButton_connect(void)" (?pushButton_connect@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_close 在函数 "public: virtual __cdecl TCIP::~TCIP(void)" (??1TCIP@@UEAA@XZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_read_bits 在函数 "public: void __cdecl TCIP::pushButton_CoilRead(void)" (?pushButton_CoilRead@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_read_registers 在函数 "public: void __cdecl TCIP::pushButton_IRead(void)" (?pushButton_IRead@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_write_bit 在函数 "public: void __cdecl TCIP::pushButton_CoilWrite(void)" (?pushButton_CoilWrite@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_write_register 在函数 "public: void __cdecl TCIP::pushButton_IWrite(void)" (?pushButton_IWrite@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_write_bits 在函数 "public: void __cdecl TCIP::pushButton_Write(void)" (?pushButton_Write@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_write_registers 在函数 "public: void __cdecl TCIP::pushButton_FWrite(void)" (?pushButton_FWrite@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_get_float_dcba 在函数 "public: void __cdecl TCIP::pushButton_FRead(void)" (?pushButton_FRead@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_set_float_dcba 在函数 "public: void __cdecl TCIP::pushButton_FWrite(void)" (?pushButton_FWrite@TCIP@@QEAAXXZ) 中导入
+     1>tcip.obj : warning LNK4217: 本地定义的符号 modbus_new_tcp 在函数 "public: void __cdecl TCIP::pushButton_connect(void)" (?pushButton_connect@TCIP@@QEAAXXZ) 中导入
+         TCIP.vcxproj -> E:\组件Demo\TCIP\x64\Debug\TCIP.exe
+     1>已完成生成项目“E:\组件Demo\TCIP\TCIP\TCIP.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.21
